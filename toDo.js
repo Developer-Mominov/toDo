@@ -32,7 +32,7 @@ $(document).ready(function () {
             
             if(JSON.parse(localStorage.sanoq)[i*2] != undefined){
 
-            $(".list").append('<div class="flexbox"> <div class="'+("rt rt"+i)+'">  <h4>'+( JSON.parse(localStorage.sanoq)[i*2] )+'</h4> <p>'+(JSON.parse(localStorage.sanoq)[i*2+1])+'</p> </div>  <button class="remove">X<button>  </div>');
+            $(".list").append('<div class="flexbox"> <div class="'+("rt rt"+i)+'">  <h4>'+( JSON.parse(localStorage.sanoq)[i*2] )+'</h4> <p>'+(JSON.parse(localStorage.sanoq)[i*2+1])+'</p> </div>  <button class="remove">X</button>  </div>');
             console.log(i);
  
         }
@@ -92,7 +92,7 @@ $(document).ready(function () {
         
 
        
-         $(".list").append('<div class="flexbox"> <div class="'+("rt rt"+sanoqb)+'">  <h4>'+( JSON.parse(localStorage.sanoq)[sanoqb*2] )+'</h4> <p>'+(JSON.parse(localStorage.sanoq)[sanoqb*2+1])+'</p> </div>  <button class="remove">X<button>  </div>');
+         $(".list").append('<div class="flexbox"> <div class="'+("rt rt"+sanoqb)+'">  <h4>'+( JSON.parse(localStorage.sanoq)[sanoqb*2] )+'</h4> <p>'+(JSON.parse(localStorage.sanoq)[sanoqb*2+1])+'</p> </div>  <button class="remove">X</button>  </div>');
          sanoqb++;
    
         
