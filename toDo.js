@@ -51,16 +51,17 @@ $(document).ready(function () {
       
         
 
-        $(".input").css({
-            "height":"100%",
-            "transition":"0.7s",
-            
-        })
+        $(".input").toggle(500);
+        $(".input").css("display","flex");
 
         
     });
 
-    
+    $("#submit").click(function () { 
+        
+        
+        $(".input").toggle(500);
+
     
   
 
@@ -69,13 +70,7 @@ $(document).ready(function () {
 
      
 
-    $("#submit").click(function () { 
-        
-        
-        $(".input").css({
-            "height":"0",
-            "transition":"0.7s",
-        })
+   
                             
 
 
